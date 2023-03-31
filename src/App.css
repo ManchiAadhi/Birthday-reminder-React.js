@@ -1,0 +1,81 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#maincontaier {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#childcontainer {
+  width: 40%;
+  height: 80%;
+  background-color: white;
+  border-radius: 10%;
+}
+
+.photo {
+  height: 50px;
+  width: 50px;
+  border-radius: 80%;
+}
+
+.holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  padding-left: 10%;
+}
+
+.textholder {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+}
+
+.UI {
+  list-style-type: none;
+}
+
+.LI {
+  width: 80%;
+  background-color: aqua;
+  margin-left: 10%;
+
+}
+
+#today {
+  color: forestgreen;
+  margin-left: 20%;
+}
+
+#upcoming {
+  color: blueviolet;
+  margin-left: 14%;
+}
+
+#clear {
+  color: green;
+  background-color: white;
+  border-radius: 5px;
+  width: 10%;
+  height: 3%;
+  margin-top: 2%;
+}
+
+#clear:hover {
+  color: red;
+  background-color: lightgreen;
+  border-radius: 8px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-duration: 2s;
+  width: 12%;
+  height: 5%;
+}
